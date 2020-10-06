@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Logo from './img/avataaars.svg';
+import Logo from './img/algorithm2.png';
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
                 <img class="masthead-avatar mb-5" src={Logo} alt="" />
 
                 {/* <!-- Masthead Heading--> */}
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">Algorithm</h1>
                 {/* <!-- Icon Divider--> */}
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -224,7 +224,7 @@ function App() {
         </footer>
         {/* <!-- Copyright Section--> */}
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Copyright © algorithm 2020</small></div>
         </div>
         {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)--> */}
         <div class="scroll-to-top d-lg-none position-fixed">
