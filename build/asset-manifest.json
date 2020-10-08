@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/algorithm-craft/static/css/main.80d68317.chunk.css",
+    "main.js": "/algorithm-craft/static/js/main.16e00266.chunk.js",
+    "main.js.map": "/algorithm-craft/static/js/main.16e00266.chunk.js.map",
+    "runtime-main.js": "/algorithm-craft/static/js/runtime-main.87678eb9.js",
+    "runtime-main.js.map": "/algorithm-craft/static/js/runtime-main.87678eb9.js.map",
+    "static/js/2.381281ae.chunk.js": "/algorithm-craft/static/js/2.381281ae.chunk.js",
+    "static/js/2.381281ae.chunk.js.map": "/algorithm-craft/static/js/2.381281ae.chunk.js.map",
+    "index.html": "/algorithm-craft/index.html",
+    "precache-manifest.a25fb6f4b85d4e5cb589bf912a0b06f4.js": "/algorithm-craft/precache-manifest.a25fb6f4b85d4e5cb589bf912a0b06f4.js",
+    "service-worker.js": "/algorithm-craft/service-worker.js",
+    "static/css/main.80d68317.chunk.css.map": "/algorithm-craft/static/css/main.80d68317.chunk.css.map",
+    "static/js/2.381281ae.chunk.js.LICENSE.txt": "/algorithm-craft/static/js/2.381281ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87678eb9.js",
+    "static/js/2.381281ae.chunk.js",
+    "static/css/main.80d68317.chunk.css",
+    "static/js/main.16e00266.chunk.js"
+  ]
+}
