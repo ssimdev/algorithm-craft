@@ -1,8 +1,20 @@
 import React from 'react';
 import './App.css';
 import Logo from './img/algorithm2.png';
+import AlgorithmAthom from './img/logoAthom.png';
+
 
 function App() {
+    if(true) return (
+        <div>
+            <div style={{marginTop: '200px', display: 'flex', justifyContent: 'center'}}>
+                    <div class="container d-flex align-items-center flex-column">
+                        <img src={AlgorithmAthom} alt={'logo'}></img>
+                        <span>Coming soon...</span>
+                    </div>
+            </div>
+        </div>
+    )
   return (
     <div className="App">
 
