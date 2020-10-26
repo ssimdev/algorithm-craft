@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Logo from './img/algorithm2.png';
+// import Logo from './img/algorithm2.png';
 import AlgorithmAthom from './img/logoAthom.png';
 
 
@@ -19,9 +19,9 @@ function App() {
     <div className="App">
 
         {/* <!-- Navigation--> */}
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg portfolio-black text-uppercase" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                {/* <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -32,35 +32,39 @@ function App() {
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </nav>
+
+
         {/* <!-- Masthead--> */}
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead bg-algorithm text-center">
             <div class="container d-flex align-items-center flex-column">
                 {/* <!-- Masthead Avatar Image--> */}
                 {/* <img class="masthead-avatar mb-5" src="./img/avataaars.svg" alt="" /> */}
-                <img class="masthead-avatar mb-5" src={Logo} alt="" />
+                <img class="masthead-avatar mb-5" src={AlgorithmAthom} alt="" />
 
                 {/* <!-- Masthead Heading--> */}
                 <h1 class="masthead-heading text-uppercase mb-0">Algorithm</h1>
                 {/* <!-- Icon Divider--> */}
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 {/* <!-- Masthead Subheading--> */}
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+                <p class="masthead-subheading font-weight-light mb-0">Web - Development - Design - Business support</p>
             </div>
         </header>
+
+
         {/* <!-- Portfolio Section--> */}
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section portfolio portfolio-black" id="portfolio">
             <div class="container">
                 {/* <!-- Portfolio Section Heading--> */}
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Knowledge stack</h2>
                 {/* <!-- Icon Divider--> */}
-                <div class="divider-custom">
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
@@ -125,12 +129,12 @@ function App() {
             </div>
         </section>
         {/* <!-- About Section--> */}
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section bg-algorithm mb-0" id="about">
             <div class="container">
                 {/* <!-- About Section Heading--> */}
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase">Technology stack</h2>
                 {/* <!-- Icon Divider--> */}
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
@@ -142,29 +146,31 @@ function App() {
                 </div>
                 {/* <!-- About Section Button--> */}
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+                    <a class="btn btn-xl btn-outline-dark" href="https://startbootstrap.com/themes/freelancer/">
                         <i class="fas fa-download mr-2"></i>
                         Free Download!
                     </a>
                 </div>
             </div>
         </section>
+
+
         {/* <!-- Contact Section--> */}
-        <section class="page-section" id="contact">
-            <div class="container">
+        {/* <section class="page-section" id="contact">
+            <div class="container"> */}
                 {/* <!-- Contact Section Heading--> */}
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                {/* <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2> */}
                 {/* <!-- Icon Divider--> */}
-                <div class="divider-custom">
+                {/* <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
-                </div>
+                </div> */}
                 {/* <!-- Contact Section Form--> */}
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
+                {/* <div class="row">
+                    <div class="col-lg-8 mx-auto"> */}
                         {/* <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.--> */}
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        {/* <form id="contactForm" name="sentMessage" novalidate="novalidate">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label>Name</label>
@@ -200,7 +206,9 @@ function App() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
+
+
         {/* <!-- Footer--> */}
         <footer class="footer text-center">
             <div class="container">
@@ -209,9 +217,11 @@ function App() {
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            Plohi 6
                             <br />
-                            Clark, MO 65243
+                            Sv. Nedelja 10431
+                            <br />
+                            Croatia
                         </p>
                     </div>
                     {/* <!-- Footer Social Icons--> */}
