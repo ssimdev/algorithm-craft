@@ -2,19 +2,20 @@ import React from 'react';
 import './App.css';
 // import Logo from './img/algorithm2.png';
 import AlgorithmAthom from './img/logoAthom.png';
+import NodeJS from './img/nodejs.png';
 
 
 function App() {
-    if(true) return (
-        <div>
-            <div style={{marginTop: '200px', display: 'flex', justifyContent: 'center'}}>
-                    <div class="container d-flex align-items-center flex-column">
-                        <img src={AlgorithmAthom} alt={'logo'}></img>
-                        <span>Coming soon...</span>
-                    </div>
-            </div>
-        </div>
-    )
+    // if(true) return (
+    //     <div>
+    //         <div style={{marginTop: '200px', display: 'flex', justifyContent: 'center'}}>
+    //                 <div class="container d-flex align-items-center flex-column">
+    //                     <img src={AlgorithmAthom} alt={'logo'}></img>
+    //                     <span>Coming soon...</span>
+    //                 </div>
+    //         </div>
+    //     </div>
+    // )
   return (
     <div className="App">
 
@@ -72,62 +73,33 @@ function App() {
                 {/* <!-- Portfolio Grid Items--> */}
                 <div class="row">
                     {/* <!-- Portfolio Item 1--> */}
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
-                        </div>
+                    <div class="col-md-6 col-lg-4 mb-5 text-white">
+                        SPA (Single Page Applications)
                     </div>
                     {/* <!-- Portfolio Item 2--> */}
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
-                        </div>
+                    <div class="col-md-6 col-lg-4 mb-5 text-white">
+                        Web Applications
                     </div>
                     {/* <!-- Portfolio Item 3--> */}
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
-                        </div>
+                    <div class="col-md-6 col-lg-4 mb-5 text-white">
+                        Frontend / Backend
                     </div>
                     {/* <!-- Portfolio Item 4--> */}
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 text-white">
+                        Databases
                     </div>
                     {/* <!-- Portfolio Item 5--> */}
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0 text-white">
+                        Architecture
                     </div>
                     {/* <!-- Portfolio Item 6--> */}
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
-                        </div>
+                    <div class="col-md-6 col-lg-4 text-white">
+                        Mobile Applications
                     </div>
                 </div>
             </div>
         </section>
+
         {/* <!-- About Section--> */}
         <section class="page-section bg-algorithm mb-0" id="about">
             <div class="container">
@@ -151,6 +123,19 @@ function App() {
                         Free Download!
                     </a>
                 </div>
+
+                <div class="text-center mt-4">
+                    <a class="" href="https://startbootstrap.com/themes/freelancer/">NodeJs</a>
+                    <img class="img-fluid" src={NodeJS} alt="" />
+                </div>
+
+                <div class="text-center mt-4">
+
+                </div>
+                <div class="text-center mt-4">
+
+                </div>
+
             </div>
         </section>
 
