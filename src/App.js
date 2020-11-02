@@ -131,7 +131,7 @@ function App() {
                         Free Download!
                     </a>
                 </div> */}
-                <div className="row">
+                <div className="row p-2">
                     <div className="text-center col-md-3">
                         <a className="" href="https://nodejs.org/en/" rel="noopener noreferrer" target="_blank">
                             <img className="img-fluid" src={NodeJS} alt="" />
@@ -154,7 +154,7 @@ function App() {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row p-2">
                     <div className="text-center col-md-3">
                         <a className="" href="https://vuejs.org/" rel="noopener noreferrer" target="_blank">
                             <img className="img-fluid" src={Vue} alt="" />
@@ -176,23 +176,23 @@ function App() {
                         </a>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="text-center col-md-3">
+                <div className="row p-2">
+                    <div className="text-center col-md-3 p-1">
                         <a className="" href="https://html5.org/" rel="noopener noreferrer" target="_blank">
                             <img className="img-fluid" src={Html} alt="" />
                         </a>
                     </div>
-                    <div className="text-center col-md-3">
+                    <div className="text-center col-md-3 p-1">
                         <a className="" href="https://developer.mozilla.org/en-US/docs/Archive/CSS3" rel="noopener noreferrer" target="_blank">
                             <img className="img-fluid" src={CSS} alt="" />
                         </a>
                     </div>
-                    <div className="text-center col-md-3">
+                    <div className="text-center col-md-3 p-1">
                         <a className="" href="https://www.javascript.com/" rel="noopener noreferrer" target="_blank">
                             <img className="img-fluid" src={JS} alt="" />
                         </a>
                     </div>
-                    <div className="text-center col-md-3">
+                    <div className="text-center col-md-3 p-1">
                         <a className="" href="https://www.php.net/" rel="noopener noreferrer" target="_blank">
                             <img className="img-fluid" src={PHP} alt="" />
                         </a>
