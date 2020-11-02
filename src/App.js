@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGa from 'react-ga';
+
 import './App.css';
 // import Logo from './img/algorithm2.png';
 import AlgorithmAthom from './img/logoAthom.png';
@@ -17,6 +19,13 @@ import PHP from './img/php.png';
 
 
 function App() {
+
+    useEffect(() => {
+        ReactGa.initialize('G-ZJ58C88T1D')
+        // report a page view
+        ReactGa.pageview('/')
+    }, [])
+
     // if(true) return (
     //     <div>
     //         <div style={{marginTop: '200px', display: 'flex', justifyContent: 'center'}}>
