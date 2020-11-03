@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactGa from 'react-ga';
 
-import './App.css';
+// import './App.css';
 // import Logo from './img/algorithm2.png';
 import AlgorithmAthom from './img/logoAthom.png';
 import NodeJS from './img/nodejs.png';
@@ -21,9 +21,14 @@ import PHP from './img/php.png';
 function App() {
 
     useEffect(() => {
-        ReactGa.initialize('G-ZJ58C88T1D')
+        ReactGa.initialize('UA-181875356-1')
         // report a page view
         ReactGa.pageview('/')
+        // ReactGa.pageview(window.location.pathname + window.location.search)
+        // web example
+        // ga('create', 'UA-XXXXX-YY', 'auto');
+        // ga('set', 'checkProtocolTask', function(){}); 
+        // ga('send', 'pageview', '/options.html');
     }, [])
 
     // if(true) return (
