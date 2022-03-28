@@ -20,6 +20,8 @@ import PHP from './img/php.png';
 
 function App() {
 
+    const date = new Date().getFullYear().toString()
+
     useEffect(() => {
         ReactGa.initialize('UA-181875356-1')
         // report a page view
@@ -299,7 +301,7 @@ function App() {
         </footer>
         {/* <!-- Copyright Section--> */}
         <div className="copyright py-4 text-center text-white">
-            <div className="container"><small>Copyright © algorithm 2020</small></div>
+            <div className="container"><small>Copyright © algorithm {date}</small></div>
         </div>
         {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)--> */}
         <div className="scroll-to-top d-lg-none position-fixed">
